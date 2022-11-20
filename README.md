@@ -1,6 +1,9 @@
 # Butterfly-cnn
 Final project for the ECS 171 (FQ 22) class at UC Davis.
 
+[![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AdityaaRavi/Butterfly-cnn/blob/main/Butteryfly_cnn_main.ipynb)
+        
+
 # Team Members
 | Name                | github username
 | ----                | ---
