@@ -9,4 +9,4 @@ Final project for the ECS 171 (FQ 22) class at UC Davis.
 | Aadarsh Subramaniam | aadsub
 | Akhileshwar Shriram | AkhilTheBoss 
 | Japman Singh Kholi  | 
-| Lakshita Anand      | 
+| Lakshita Anand      | laks
