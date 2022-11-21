@@ -19,7 +19,7 @@ Butterflies are elegant creatures that magnify the beauty of our environment and
 
 # Data Exploration Milestone 
 
-# Q4 - Perform the data exploration step (i.e. evaluate your data, # of observations, details about your data distributions, scales, missing data, column descriptions) Note: For image data you can still describe your data by the number of classes, # of images, size of images, are sizes standardized? do they need to be cropped? normalized? etc.
+##Q4 - Perform the data exploration step (i.e. evaluate your data, # of observations, details about your data distributions, scales, missing data, column descriptions) Note: For image data you can still describe your data by the number of classes, # of images, size of images, are sizes standardized? do they need to be cropped? normalized? etc.
 
 The dataset has 100 classes of butterfly or moth species. 
 
@@ -32,7 +32,7 @@ The column values represent the name of the class, the filename, and the image.
 The data has 3 channels so each channel will have values ranging from 0-255. Due to this, the data needs to be normalized. That way we can guarantee the accuracy of the results, having removed all inconsistencies from it. This ensures that the data has a similar distribution which enables a faster convergence while training the neural network.
 
 
-# Q6 - How will you preprocess your data? You should explain this in your Readme.MD file and link your jupyter notebook to it. Your jupyter notebook should be uploaded to your repo.
+##Q6 - How will you preprocess your data? You should explain this in your Readme.MD file and link your jupyter notebook to it. Your jupyter notebook should be uploaded to your repo.
 
 For preprocessing our data we will perform certain filtration on our dataset.
 
