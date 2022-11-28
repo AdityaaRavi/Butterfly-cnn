@@ -43,4 +43,16 @@ After the gaussian filter, we add the laplace filter that helps out in highlight
 We then perform rotations/transformations on the data set to help the model improve the neural network with each image being viewed from a different angle and zoom. This is to improve the usability of our model in a real-life scenario as there could be images that may be clicked at an angle that is not perfectly straight. By doing these steps, we can allow the model to be more applicable in real-life scenarios where we won’t always have the ideal data.
 
 
+# Preprocessing & First Model building and evaluation Milestone
+The model seems to be underfitting when comparing the loss and val_loss during the training of the model.
+
+<img width="838" alt="Screen Shot 2022-11-27 at 3 54 30 PM" src="https://user-images.githubusercontent.com/63729973/204166597-8e74b7a0-7087-4e6c-8ebb-b46baa3fa048.png">
+
+As can be seen from the above image, the loss (loss from the training dataset) is bigger than the val_loss (loss from the validation dataset). Moreover, the model had a lower accuracy on the training dataset than on the validation and testing datasets. It shows that there are more features to be captured from the training data, and so our model is underfitting on the dataset. As a result, the model seems to be inefficient in classifying the butterflies and moths.
+
+<img width="429" alt="Screen Shot 2022-11-27 at 3 55 47 PM" src="https://user-images.githubusercontent.com/63729973/204166646-e2d7b9f2-3913-4024-8861-5246e92ff8f7.png">
+ 
+To improve this model, extra layers can be added to increase the amount of information the model captures from the training dataset, the model can be run for more epochs, and image augmentation can be toned down.
+
+
 
