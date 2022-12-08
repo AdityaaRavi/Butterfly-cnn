@@ -59,6 +59,9 @@ To improve this model, extra layers can be added to increase the amount of infor
 
 We started with the idea that our model should be based on Computer Vision. It was a concept that intrigued us from the start and something we didn't have much experience with. We believed that it would be a great learning opportunity to improve our foundation of an important skill that would help us in the future. While searching for an ideal dataset we came across this butterfly dataset. The dataset is interesting since butterflies serve a greater purpose to this world and are on the verge of extinction. Due to which, it is crucial to identify these butterflies for the safety of our ecosystem. For that reason, we have decided to develop a machine-learning algorithm to help us easily identify these species. Further, we concluded that the dataset would be compatible with our planned machine learning model. It would be ideal as it consists of over 13000 images of 100 unique classes of butterflies. Our approach would involve multiple parts such as image enhancement, image segmentation, region analysis, and more computer vision and deep learning techniques. We believe that the combination of this dataset and our implementation of machine learning techniques will make a great machine learning model that would be usable in real world scenarios, similar to other models such as YOLO which has gained traction in the data science field. As we see the results in the end, we get an accuracy of over 70 percent in the finalized model. 
 
+# Figures:
+
+![download](https://user-images.githubusercontent.com/93968740/206359650-4c2ab6ab-74d8-412b-92c0-198f160bc56a.png)
 
 # Methods:
 
