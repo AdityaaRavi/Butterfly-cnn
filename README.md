@@ -57,15 +57,10 @@ To improve this model, extra layers can be added to increase the amount of infor
 
 # Introduction - 
 
-Introduction of your project. Why was it chosen? Why is it cool? General/Broader impact of having a good predictive mode. i.e. why is this important?
-
 We started with the idea that our model should be based on Computer Vision. It was a concept that intrigued us from the start and something we didn't have much experience with. We believed that it would be a great learning opportunity to improve our foundation of an important skill that would help us in the future. While searching for an ideal dataset we came across this butterfly dataset. The dataset is interesting since butterflies serve a greater purpose to this world and are on the verge of extinction. Due to which, it is crucial to identify these butterflies for the safety of our ecosystem. For that reason, we have decided to develop a machine-learning algorithm to help us easily identify these species. Further, we concluded that the dataset would be compatible with our planned machine learning model. It would be ideal as it consists of over 13000 images of 100 unique classes of butterflies. Our approach would involve multiple parts such as image enhancement, image segmentation, region analysis, and more computer vision and deep learning techniques. We believe that the combination of this dataset and our implementation of machine learning techniques will make a great machine learning model that would be usable in real world scenarios, similar to other models such as YOLO which has gained traction in the data science field. As we see the results in the end, we get an accuracy of over 70 percent in the finalized model. 
 
 
 # Methods:
-
-Methods section (this section will include the exploration results, preprocessing steps, models chosen in the order they were executed. Parameters chosen. Please make sub-sections for every step. i.e Data Exploration, Preprocessing, Model 1, Model 2, (note models can be the same i.e. CNN but different versions of it if they are distinct enough). You can put links here to notebooks and/or code blocks using three ` in markup for displaying code. so it would look like this: ``` MY CODE BLOCK ```
-Note: A methods section does not include any why. the reason why will be in the discussion section. This is just a summary of your methods
 
 ## Data Exploration:
 
@@ -458,7 +453,7 @@ In the pre-processing step, we applied gaussian noise of 0.1 std deviation to mi
 
 For model 2, we continue on with the same preprocessing steps of flipping, rotations, cropping, and gaussian noise of 0.05 std deviation. The steps done here were similar to what we did for model 1 but with the application of the dropout layer. This is done to prevent overfitting. It does so by changing the input units to 0 on a random basis at the rate provided (0.1 and 0.2 here), while scaling up the input units that were not changed to 0 by 1/(1-rate) to make the sum over all the inputs change. Alongside that, we changed the Kernel sizes and number of layers, where we had 3 layers in the first model that went from high to low Kernel sizes and 2 layers in the second one that went from low to high Kernel sizes. With the final layer having a smaller kernel size than the maximum of the first model, our model drops fewer important details that a larger kernel would, making model 2 more accurate and even faster. Finally, we tested it for more epochs (40 compared to 10) than the model and ended up with a higher accuracy than our previous model (76.2% for model 2 vs 58.59% for model 1). We believe that the higher number of epochs and the further processing of the dropout layer resulted in the higher accuracy of this model.  
 
-# Conclusion - 
+# Conclusion
 
 Thoughts Dump:
 
@@ -469,7 +464,7 @@ Our preprocessing steps made it so that we could use the model in a real world s
 Though our first model and second model were constructed similarly, the addition of a few extra essential layers in our second model increased the accuracy by 15%. Our layers that we set the model upon in model 1 gave a strong foundation for the second model where we changed the number of layers and kernel size, added the dropout layer, and even more epochs, leading to the accuracy increase that we reported above. 
 
 
-# Possibilities for the future - 
+# Possibilities for the future
 
 In the future, we could think of adding a laplacian filter. The laplacian filter helps in providing edge enhancements to the image. For instance, we might have animage of two different classes, let’s say Viceroy and Monarch. Both of them look very similar to each other. While our model would be able to distinguish between the two in it’s current state, based on how it was trained, if we get an image of the two that has a bokeh effect on it for example which may have blurred out the edges of the same, that would be helped by the laplacian filter which would make the image clearer and allow our model to detect the image better. 
 
@@ -478,7 +473,7 @@ We would like to train our model on even more images of different classes. Howev
 Lastly, adding more layers would be our final improvement attempt. It would lead to a potential improvement in the accuracy of one of, if not both of the models. The accuracy of the current model is great, but there are ways to improve. 
 
 
-# Collaboration Statement - 
+# Collaboration Statement
 
 Everyone: Helped with coding and debugging 
 
